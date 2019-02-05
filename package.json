@@ -1,0 +1,26 @@
+{
+  "name": "jsql-angular1",
+  "version": "1.1.1",
+  "description": "JSQL plugin for Angular 1.6",
+  "main": "jsql-angular.min.js",
+  "scripts": {},
+  "keywords": [
+    "jsql-angular1",
+    "jsql-angular",
+    "jsql",
+    "jsql-it",
+    "jsql-optimization"
+  ],
+  "author": "JSQL",
+  "license": "ISC",
+  "dependencies": {
+    "jsql-core": "^1.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0"
+  }
+}
