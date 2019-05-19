@@ -12,9 +12,14 @@
     "jsql-optimization"
   ],
   "author": "JSQL",
-  "license": "ISC",
+  "licenses": [
+    {
+      "type": "LicenseRef-LICENSE",
+      "url": "https://jsql.it/public-packages-license"
+    }
+  ],
   "dependencies": {
-    "jsql-core": "^1.1.6"
+    "jsql-core": "^1.1.8"
   },
   "devDependencies": {
     "grunt": "^1.0.3",

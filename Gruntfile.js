@@ -26,7 +26,7 @@ module.exports = function (grunt) {
 				dest: 'dist/jsql-angular.js'
 			},
             local: {
-                src: ['../jsql-js-core/dist/jsql-core.min.js', 'src/jsql-angular.js'],
+                src: ['../jsql-js-core/dist/jsql-core.js', 'src/jsql-angular.js'],
                 dest: 'dist/jsql-angular.js'
             }
 		},
@@ -51,7 +51,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: '.',
-                        src: ['isc.md', 'package.json'],
+                        src: ['LICENSE.md', 'package.json'],
                         dest: './dist'
                     }
                 ]
@@ -67,7 +67,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
 
-    grunt.registerTask('dev', ['concat:local', 'uglify']);
+    grunt.registerTask('dev', ['concat:local']);
     grunt.registerTask('default', ['concat:dist', 'uglify', 'copy', 'clean:publish']);
 
 };
