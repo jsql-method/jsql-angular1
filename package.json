@@ -1,6 +1,6 @@
 {
   "name": "jsql-angular1",
-  "version": "1.4.0",
+  "version": "1.7.0",
   "description": "JSQL plugin for Angular 1.6",
   "main": "jsql-angular.min.js",
   "scripts": {},
@@ -19,7 +19,7 @@
     }
   ],
   "dependencies": {
-    "jsql-core": "^1.8.0"
+    "jsql-core": "^2.0.0"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
